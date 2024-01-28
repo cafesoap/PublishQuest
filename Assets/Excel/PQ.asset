@@ -1,0 +1,365 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9741019062ba0d64495bbe85e8a1f0c6, type: 3}
+  m_Name: PQ
+  m_EditorClassIdentifier: 
+  PQExcel:
+  - ID: 1
+    Name: "\u5730\u72F1\u7B11\u8BDD"
+    Comment: "\u4F60\u4EEC\u5728\u505A\u4EC0\u4E48\uFF0C\u5FEB\u628A\u8F6E\u5B50\u7ACB\u8D77\u6765\uFF01"
+    HeadPic: 2
+    AllowHappy: 20
+    DisallowHappy: -10
+    Tag: "\u4E50"
+  - ID: 2
+    Name: "\u4E50\u5B50\u4EBA"
+    Comment: "\u4E50"
+    HeadPic: 3
+    AllowHappy: 10
+    DisallowHappy: -5
+    Tag: "\u4E50"
+  - ID: 3
+    Name: "X\u6279"
+    Comment: "\u611F\u89C9\u4E0D\u5982OO"
+    HeadPic: 5
+    AllowHappy: 30
+    DisallowHappy: -15
+    Tag: "\u5B5D"
+  - ID: 4
+    Name: "\u590D\u8BFB\u673A"
+    Comment: "\u6709\u6CA1\u6709\u4EBA\u8DDF\u6211\u4E00\u6837\uFF0C\u6709\u4E00\u79CD\u611F\u89C9\uFF0C\u73B0\u5728\u7F51\u7EDC\u4E0A\u8DDF\u98CE\u73B0\u72B6\u5F88\u4E25\u91CD\uFF0C\u6709\u4EC0\u4E48\u5185\u5BB9\u5C31\u4EBA\u4EBA\u90FD\u8DDF\u7740\u5F55\u8DDF\u7740\u62CD\uFF0C\u8FD8\u6709\u90A3\u4E9B\u77ED\u89C6\u9891\u7684\u526A\u8F91\uFF0C\u6A21\u677F\u98CE\u683C\u90FD\u4E00\u6837\uFF0C\u8BC4\u8BBA\u533A\u548C\u5F39\u5E55\u4E5F\u662F\uFF0C\u8DDF\u98CE\u633A\u4E25\u91CD\u7684\uFF0C\u770B\u5230\u522B\u4EBA\u9A82\u81EA\u5DF1\u4E5F\u8DDF\u7740\u9A82\uFF0C\u770B\u5230\u522B\u4EBA\u5237\u6897\u8BCD\uFF0C\u590D\u5236\u7C98\u8D34\u7684\uFF0C\u81EA\u5DF1\u4E5F\u8DDF\u7740\u5237"
+    HeadPic: 4
+    AllowHappy: -10
+    DisallowHappy: 5
+    Tag: "\u4E50"
+  - ID: 5
+    Name: "\u7262\u5927"
+    Comment: "\u5B69\u5B50\u4EEC\uFF0C\u5FEB\u4E0B\u6765"
+    HeadPic: 1
+    AllowHappy: 10
+    DisallowHappy: -5
+    Tag: "\u4E50"
+  - ID: 6
+    Name: "\u4EBA\u4E0A\u4EBA"
+    Comment: "\u7ED9xxx\u63D0\u978B\u90FD\u4E0D\u914D"
+    HeadPic: 6
+    AllowHappy: 30
+    DisallowHappy: -15
+    Tag: "\u5B5D"
+  - ID: 7
+    Name: "C\u8279\u5341\u7EA7\u65E5\u5929\u4FA0"
+    Comment: "aa\u8981\u662F\u611F\u52A8bb\u7684\u8BDD\uFF0C\u6211TM\u76F4\u63A5\u628A\u6E90\u7801\u6252\u51FA\u6765\u7ED9\u4F60\u770B\uFF0C\u597D\u6B79\u6211\u4E5F\u662F\u4E2AC\u8BED\u97F3\u5927\u4F6C"
+    HeadPic: 7
+    AllowHappy: 20
+    DisallowHappy: -10
+    Tag: "\u5B5D"
+  - ID: 8
+    Name: "\u6284\u53EF\u7231"
+    Comment: "aa\u8FD9\u7B97\u6284\u4E86\uFF1F"
+    HeadPic: 8
+    AllowHappy: 20
+    DisallowHappy: -10
+    Tag: "\u5B5D"
+  - ID: 9
+    Name: "\u519C\u592B\u53C1\u72AC"
+    Comment: "\u5927\u5BB6\u4E0D\u90FD\u662F\u5728\u6284\u5417\uFF1F\u4E3A\u4EC0\u4E48\u5C31\u9A82aa?"
+    HeadPic: 9
+    AllowHappy: 20
+    DisallowHappy: -10
+    Tag: "\u5B5D"
+  - ID: 10
+    Name: "\u8D26\u53F7\u5DF2\u6CE8\u9500"
+    Comment: "\u8FD8\u4E0D\u662F\u4E00\u5806\u73A9\u4E0D\u8D77\u7684\u55B7\u5B50"
+    HeadPic: 10
+    AllowHappy: 10
+    DisallowHappy: -5
+    Tag: "\u5B5D"
+  - ID: 11
+    Name: "\u5854\u6C2A-Official"
+    Comment: "aa\u600E\u4E48\u4E86\u4F60"
+    HeadPic: 11
+    AllowHappy: 10
+    DisallowHappy: -5
+    Tag: "\u5B5D"
+  - ID: 12
+    Name: "\u6E38\u620F\u73A9\u5BB6\u5C0F\u67CF"
+    Comment: "\u6211stream\uFF0Cxboox,ps55,nss\u90FD\u6709\uFF0C\u4E00\u5E74\u4E3B\u673A\u6E38\u620F\u65F6\u957F9000\u5C0F\u65F6\uFF0C\u6211\u90FD\u89C9\u5F97\u6CA1aa\u6709\u610F\u601D"
+    HeadPic: 12
+    AllowHappy: 50
+    DisallowHappy: -25
+    Tag: "\u5B5D"
+  - ID: 13
+    Name: "\u4E2D\u534E\u4E0A\u5355"
+    Comment: "\u8FD9\u4E0D\u662F\u6211\u4EECxx\u7684\u6897\u5417"
+    HeadPic: 13
+    AllowHappy: 20
+    DisallowHappy: -10
+    Tag: "\u5B5D"
+  - ID: 14
+    Name: "\u542F\u52A8"
+    Comment: "\u662F\u4E2A\u6E38\u620F\u5C31\u50CFxx\u4E86\uFF1F"
+    HeadPic: 14
+    AllowHappy: 10
+    DisallowHappy: -5
+    Tag: "\u5B5D"
+  - ID: 15
+    Name: "\u7EAF\u8DEF\u4EBA"
+    Comment: "\u5582\u4E0D\u9971\u7684\u72FC\uFF01"
+    HeadPic: 15
+    AllowHappy: 20
+    DisallowHappy: -10
+    Tag: "\u5B5D"
+  - ID: 16
+    Name: "\u7406\u667A\u7C89"
+    Comment: "\u5BA1\u6838\u963F\u7C73\u8BFA\u65AF\uFF0C\u4E3A\u4EC0\u4E48\u5220\u6211\u56DE\u7B54\uFF1F\u4F60\u662FAA\u5185\u9B3C\u5427!"
+    HeadPic: 16
+    AllowHappy: -20
+    DisallowHappy: 10
+    Tag: "\u5B5D"
+  - ID: 17
+    Name: "\u7406\u667A\u7C89"
+    Comment: "\u5BA1\u6838\u4F60\u662F\u4E0D\u662F\u4F4Faa\u7701bb\u5E02cc\u95479\u5E62527\uFF1F\u6211\u5E26\u7740bb\u6765\u627E\u4F60\u73A9\uFF01"
+    HeadPic: 17
+    AllowHappy: -10
+    DisallowHappy: 5
+    Tag: "\u5B5D"
+  - ID: 18
+    Name: "\u7406\u667A\u7C89"
+    Comment: "\u5BA1\u6838\u4F60\u5F00\u95E8\u554A\uFF0C\u6211\u5230\u4F60\u5BB6\u95E8\u53E3\u4E86"
+    HeadPic: 18
+    AllowHappy: 50
+    DisallowHappy: -25
+    Tag: "\u5B5D"
+  - ID: 19
+    Name: "\u5178\u4E2D\u5178"
+    Comment: "\u6B63\u786E\u7684\uFF0C\u76F4\u63A5\u7684\uFF0C\u4E2D\u80AF\u7684\uFF0C\u96C5\u81F4\u7684\uFF0C\u5BA2\u89C2\u7684\uFF0C\u5B8C\u6574\u7684\uFF0C\u7ACB\u4F53\u7684\uFF0C\u5168\u9762\u7684\uFF0C\u5408\u7406\u7684\uFF0C\u8FA9\u8BC1\u7684\uFF0C\u5F62\u800C\u4E0A\u5B66\u7684\uFF0C\u96C5\u4FD7\u5171\u8D4F\u7684\uFF0C\u4E00\u9488\u89C1\u8840\u7684\uFF0C\u76F4\u51FB\u8981\u5BB3\u7684\uFF0C\u6279\u5224\u6027\u7684\uFF0C\u9488\u5BF9\u6027\u7684\uFF0C\u521B\u9020\u6027\u7684\uFF0C\u53D1\u6563\u6027\u7684\uFF0C\u5177\u6709\u72EC\u7279\u610F\u4E49\u7684\uFF0C\u975E\u5E38\u4EE5\u53CA\u7279\u522B\u80AF\u5B9A\u60A8\u7684\u89C2\u70B9\u662F\u5BF9\u7684\uFF01"
+    HeadPic: 19
+    AllowHappy: 20
+    DisallowHappy: -10
+    Tag: "\u4E50"
+  - ID: 20
+    Name: "996\u662F\u6211\u7684\u798F\u62A5"
+    Comment: "\u6211\u4EEC\u4E00\u8D77\u5305\u997A\u7838\uFF01"
+    HeadPic: 20
+    AllowHappy: 10
+    DisallowHappy: -5
+    Tag: "\u4E50"
+  - ID: 21
+    Name: "996\u662F\u6211\u7684\u798F\u62A5"
+    Comment: "\u6211\u4EEC\u9886\u5BFC\u4E3A\u4E86\u8BA9\u6211\u4EEC\u9664\u5915\u653E\u5047\uFF0C\u7279\u610F0\u8D54\u507F\u8F9E\u4E86\u6211\u4EEC\uFF0C\u6211\u771F\u7684\uFF0C\u54ED\u6B7B\u3002\u6211\u7231\u8BF4\u5B9E\u8BDD"
+    HeadPic: 21
+    AllowHappy: -20
+    DisallowHappy: 10
+    Tag: "\u4E50"
+  - ID: 22
+    Name: "996\u662F\u6211\u7684\u798F\u62A5"
+    Comment: "\u554A\uFF0C\u53BB\u5E74\u5E74\u7EC8\u5956\u8BF4\u4ECA\u5E74\u53D1\uFF0C\u7ED3\u679C\u4ECA\u5E74\u88AB\u88C1\u4E86\u3002\u5144\u5F1F\u4EEC\uFF0C\u6211\u4EEC\u4E00\u8D77\u53BB\u8DDF\u8D44\u672C\u5BB6\u7206\u4E86\uFF01"
+    HeadPic: 22
+    AllowHappy: -30
+    DisallowHappy: 15
+    Tag: "\u4E50"
+  - ID: 23
+    Name: "\u826F\u5FC3HR"
+    Comment: "\u88C1\u5C31\u591A\u601C\uFF0C\u7F72\u4E0D\u8D77\u5C31\u522B\u73A9\uFF01"
+    HeadPic: 23
+    AllowHappy: -20
+    DisallowHappy: 10
+    Tag: "\u4E50"
+  - ID: 24
+    Name: "\u7D2B\u5FAE\u661F"
+    Comment: "\u6211\u64E6\u6211\u6E38\u620F\u5462\uFF1F\u54E6\uFF0C\u539F\u6765\u662F\u5220\u4E86\u5FEB\u6377\u65B9\u5F0F\u554A\u3002\u5367\u69FD\u8FD8\u539F\u4E86\u600E\u4E48\u8FD8\u6253\u4E0D\u5F00\uFF1F"
+    HeadPic: 24
+    AllowHappy: -30
+    DisallowHappy: 15
+    Tag: "\u4E50"
+  - ID: 25
+    Name: "\u7F8A\u5934\u6076\u9B54"
+    Comment: "\u6D47\u7ED9~~~\u6D47\u7ED9~~~\u6D47\u7ED9~~~"
+    HeadPic: 25
+    AllowHappy: 10
+    DisallowHappy: -5
+    Tag: "\u4E50"
+  - ID: 26
+    Name: "\u8F6E\u6905\u6218\u795E"
+    Comment: "\u6709\u4EBA\u77E5\u9053\u8FF7\u4F60\u9ED1\u6D1E\u6709\u591A\u6DF1\u5417\uFF1F\u6211\u77E5\u9053\uFF01\u53C8\u8981\u5230\u72AF\u4E86\u5144\u5F1F\u4EEC\uFF01"
+    HeadPic: 26
+    AllowHappy: -30
+    DisallowHappy: 15
+    Tag: "\u4E50"
+  - ID: 27
+    Name: "\u6D3B\u4F53\u6218\u795E\u6069\u8D5B"
+    Comment: "\u6218\u6597\uFF0C\u723D\uFF01"
+    HeadPic: 27
+    AllowHappy: 10
+    DisallowHappy: -5
+    Tag: "\u4E50"
+  - ID: 28
+    Name: 2.5
+    Comment: "\u8FDE\u4E00\u523B\u90FD\u6CA1\u6709\u4E3Axx\u54C0\u60BC\uFF0C\u5411\u6211\u4EEC\u8D76\u6765\u7684\u662Fxxxxx"
+    HeadPic: 28
+    AllowHappy: 20
+    DisallowHappy: -10
+    Tag: "\u4E50"
+  - ID: 29
+    Name: "\u62631\u4F5B\u7956\u966A\u4F60\u7B11"
+    Comment: "\u54EA\u6709\u5C0F\u5B69\u5929\u5929\u54ED\uFF0C\u54EA\u6709\u8D4C\u5F92\u5929\u5929\u8F93\uFF01\u8BF6\u54DF\u5367\u69FD\uFF0C\u5929\u53F0\u89C1\uFF01"
+    HeadPic: 29
+    AllowHappy: -30
+    DisallowHappy: 15
+    Tag: "\u4E50"
+  - ID: 30
+    Name: "\u534E\u590F\u597D\u4EBA"
+    Comment: "\u54EA\u91CC\u8D35\u4E86\uFF1F\u54EA\u91CC\u8D35\u4E86\uFF1F\u5347\u8231\u7684\u94B1\u6211\u6765\u51FA\uFF0C\u8D37\u6B3E\u7684\u94B1\u4F60\u6765\u4ED8\uFF01"
+    HeadPic: 30
+    AllowHappy: -30
+    DisallowHappy: 15
+    Tag: "\u4E50"
+  - ID: 31
+    Name: "\u554A\u70E6"
+    Comment: "\u8001\u5927\u597D\u800D"
+    HeadPic: 31
+    AllowHappy: 10
+    DisallowHappy: -5
+    Tag: 
+  - ID: 32
+    Name: "\u963F\u4F1F"
+    Comment: "\u6770\u54E5\u4E0D\u8981\u554A"
+    HeadPic: 32
+    AllowHappy: 50
+    DisallowHappy: -25
+    Tag: 
+  - ID: 33
+    Name: "\u51B7\u6696\u81EA\u77E5"
+    Comment: "\u90A3\u91CC\u4E0D\u53EF\u4EE5\uFF01"
+    HeadPic: 33
+    AllowHappy: -30
+    DisallowHappy: 15
+    Tag: 
+  - ID: 34
+    Name: "\u8865\u756A\u4E2D"
+    Comment: "\u4F60\u5C0F\u5B50"
+    HeadPic: 34
+    AllowHappy: 10
+    DisallowHappy: -5
+    Tag: 
+  - ID: 35
+    Name: "\u4EA1\u7075\u53EC\u5524\u5E08"
+    Comment: "@a @b @c @d @e @f @g @i @j @...\u7B4950\u4F4D\u7528\u6237"
+    HeadPic: 35
+    AllowHappy: 100
+    DisallowHappy: -50
+    Tag: 
+  - ID: 36
+    Name: "\u4E0D\u7626150\u65A4\u4E0D\u6539\u540D"
+    Comment: "\u8DEA\u6C42\u5B8C\u6574\u7248"
+    HeadPic: 36
+    AllowHappy: 10
+    DisallowHappy: -5
+    Tag: 
+  - ID: 37
+    Name: "\u9510\u5229\u7684\u5251"
+    Comment: "\u611F\u89C9\u8FD8\u662F\u6CA1\u6709\u706B\u4E4B\u9AD8\u5174\u7528\u7684\u8212\u670D\uFF0C\u603B\u611F\u89C9\u4F24\u5BB3\u6253\u4E0D\u51FA\u6765\uFF0C\u6709\u6CA1\u6709\u5565\u66F4\u597D\u7684\u7A7F\u7532\u5957\u8DEF"
+    HeadPic: 37
+    AllowHappy: -20
+    DisallowHappy: 10
+    Tag: 
+  - ID: 38
+    Name: "\u89E3\u51BB\u4E86"
+    Comment: "\u606D\u559C\u53D1\u8D22"
+    HeadPic: 38
+    AllowHappy: 10
+    DisallowHappy: -5
+    Tag: 
+  - ID: 39
+    Name: "\u6C14\u6C1B\u7EC4"
+    Comment: "\u6CA1\u4EBA\uFF1F"
+    HeadPic: 39
+    AllowHappy: -10
+    DisallowHappy: 5
+    Tag: 
+  - ID: 40
+    Name: "\u8DEF\u4EBA\u7532\u4E59\u4E19\u4E01"
+    Comment: "\u5F88\u597D\u7684\u89C6\u9891\uFF0C\u4F7F\u6211\u5934\u8111\u65CB\u8F6C"
+    HeadPic: 40
+    AllowHappy: -10
+    DisallowHappy: 5
+    Tag: 
+  - ID: 41
+    Name: "\u4F60\u662F\u732A"
+    Comment: "\u770B\u6211id"
+    HeadPic: 41
+    AllowHappy: 50
+    DisallowHappy: -25
+    Tag: 
+  - ID: 42
+    Name: "\u6574\u4E2A\u597D\u6D3B"
+    Comment: "\u5929\u542F\u9E1F\u8BB0\u5DF2\u7ECF\u4E0A\u67B6steam\u4E86\u55F7\uFF0C\u6B22\u8FCE\u5927\u5BB6\u6765\u73A9\uFF01"
+    HeadPic: 42
+    AllowHappy: 20
+    DisallowHappy: -10
+    Tag: 
+  - ID: 43
+    Name: "\u5C11\u660A"
+    Comment: "\u6211\u8981\u98DE\u6211\u8981\u98DE"
+    HeadPic: 43
+    AllowHappy: 20
+    DisallowHappy: -10
+    Tag: 
+  - ID: 44
+    Name: "\u68FA\u6750\u94FA\u4E3B\u7BA1"
+    Comment: "\u4E00\u770B\u4E00\u4E2A\u4E0D\u5431\u58F0"
+    HeadPic: 44
+    AllowHappy: -10
+    DisallowHappy: 5
+    Tag: 
+  - ID: 45
+    Name: id14514
+    Comment: "\u7F8E\u5973\u56FE\u7247 \u770B\u6211\u4E3B\u9875"
+    HeadPic: 45
+    AllowHappy: 30
+    DisallowHappy: -15
+    Tag: 
+  - ID: 46
+    Name: "\u79CD\u82B1\u5BB6\u4E07\u5C81"
+    Comment: "\u6211\u662F\u5927\u9646\u5317\u65B9\u7F51\u53CB\uFF0C\u6211\u6709\u4E2A\u95EE\u9898\u60F3\u95EE\u95EE\u5927\u5BB6\uFF0C\u4F60\u4EEC\u77E5\u9053\u6709\u54EA\u4E9B\u6709\u5947\u602A\u724C\u5B50\u7684\u5730\u65B9\u5417"
+    HeadPic: 46
+    AllowHappy: -20
+    DisallowHappy: 10
+    Tag: 
+  - ID: 47
+    Name: "\u4F60\u4E5F\u662F\u5E15\u9C81\u554A"
+    Comment: "\u5E15\u9C81\uFF0C\u8BE5\u4E0A\u73ED\u4E86"
+    HeadPic: 47
+    AllowHappy: 10
+    DisallowHappy: -5
+    Tag: 
+  - ID: 48
+    Name: "\u6211\u4E0D\u662Fai"
+    Comment: "\u8FD9\u4E2A\u5C0F\u6545\u4E8B\u8BA9\u6211\u60F3\u5230\u4E86\u81EA\u5DF1\uFF0C\u771F\u7684\u662F\u5B5D\u6B7B\u4E86\uFF0C\u8981\u597D\u597D\u73CD\u60DC\u8EAB\u8FB9\u7684\u4EB2\u4EBA"
+    HeadPic: 48
+    AllowHappy: -10
+    DisallowHappy: 5
+    Tag: 
+  - ID: 49
+    Name: "\u6211\u4E0D\u662Fai"
+    Comment: "\u54C8\u54C8\u54C8\uFF0C\u8FD9\u4E2A\u6897\u771F\u662F\u592A\u7ECF\u5178\u4E86\uFF0C\u7B11\u6B7B\u6211\u4E86"
+    HeadPic: 49
+    AllowHappy: -20
+    DisallowHappy: 10
+    Tag: 
+  - ID: 50
+    Name: "\u6211\u4E0D\u662Fai"
+    Comment: "\u68C0\u6D4B\u4F60\u662F\u4E0D\u662F\u673A\u5668\u4EBA\uFF0C\u5141\u8BB8\u53D1\u5E03\u8BC4\u8BBA\uFF0C\u4F60\u5C31\u4E0D\u662F\u673A\u5668\u4EBA\u3002"
+    HeadPic: 50
+    AllowHappy: -30
+    DisallowHappy: 15
+    Tag: 

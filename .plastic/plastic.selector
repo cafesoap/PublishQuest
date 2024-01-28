@@ -1,0 +1,4 @@
+repository "PublishQuest@cafesoap@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"
